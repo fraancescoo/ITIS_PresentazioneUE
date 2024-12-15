@@ -1,0 +1,191 @@
+* {
+    transition: all ease-in-out 0.35s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    color: white;
+}
+
+html, body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    margin: 0;
+    
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+}
+
+.maintext {
+    color: white;
+    background-color: rgba(6, 15, 133, 0.75);
+    padding: 1vh;
+
+    border-color: rgb(1, 10, 128);
+    border-width: 1vh;
+    border-style: solid;
+    border-radius: 2vh;
+}
+
+.slide5 img:not(.flag):hover,
+.maintext:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px 20px rgb(51, 60, 178);
+}
+
+.slide:not(.slide1) .title {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.secondarytext {
+    color: white;
+    background-color: rgba(6, 76, 133, 0.75);
+    padding: 1vh;
+
+    border-color: rgb(1, 92, 128);
+    border-width: 1vh;
+    border-style: solid;
+    border-radius: 2vh;
+}
+
+.secondarytext:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px 20px rgb(51, 142, 178);
+}
+
+.credits {
+    position: absolute;
+    width: 25vw;
+    margin: 0;
+    top: 20vh;
+    left: 10vh;
+    line-height: 3.25vh;
+}
+
+.slide1 .title {
+    font-size: 7vh;
+}
+
+.slide1 img {
+    width: 45vw;
+    height: auto;
+    border-radius: 5vw;
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+}
+
+.slide2 .timeline {
+    position: absolute;
+    top: 25vh;
+    left: 20vw;
+    width: 60vw;
+    height: 50vh;
+}
+
+ul, li {
+    margin: 0;
+}
+
+.slide3 ul {
+    list-style-type: none;
+    position: absolute;
+    top: 15vh;
+    height: 80vh;
+    column-width: 35vw;
+    column-gap: 1vw;
+}
+
+.slide3 ul li {
+    margin-bottom: 1.5vh;
+}
+
+.slide3 ul li a {
+    font-size: 2vh;
+    display: inline-block;
+    min-width: 15vw;
+}
+
+.slide3 ul li a span {
+    color: #ababef;
+}
+
+.slide3 ul li a img {
+    height: 2vh;
+    width: auto;
+    position: relative;
+    top: 0.30vh;
+}
+
+.textbox {
+    position: absolute;
+    margin: 0;
+    top: 15vh;
+    left: 10vh;
+}
+
+.textbox a:not(.inline) {
+    display: block;
+}
+
+.textbox a.inline {
+    display: inline;
+}
+
+.textbox a.secondarytext {
+    margin-bottom: 1vh;
+}
+
+.slide4 .infobox {
+    position: absolute;
+    width: 45vw;
+    height: 90vh;
+    top: 5vh;
+    right: 2.5vw;
+}
+
+.slide4active {
+    cursor: pointer;
+    box-shadow: 0 0 20px 10px rgb(51, 142, 178);
+}
+
+.link {
+    color: #5555ff;
+}
+
+.slide5 .flag {
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    bottom: 5vh;
+    left: 2.5vw;
+    border-radius: 2vh;
+}
+
+.slide5 img:not(.flag) {
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    top: 5vh;
+    right: 2.5vw;
+    border-radius: 2vh;
+}
+
+.slide5 img:not(.flag):hover {
+    cursor: pointer;
+}
